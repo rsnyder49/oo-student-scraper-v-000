@@ -10,7 +10,9 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.each do |info| 
-      
+      self.new(info)
+    end
+    
     
   end
 
